@@ -1,27 +1,58 @@
-# ConsumindoAPI
+# AngularPeopleCrud
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
+O AngularPeopleCrud é um projeto simples em Angular que consome uma API para realizar operações CRUD (Create, Read, Update, Delete) em registros de pessoas.
 
-## Development server
+## Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Visualizar a lista de pessoas cadastradas.
+- Adicionar uma nova pessoa.
+- Atualizar os dados de uma pessoa existente.
+- Excluir uma pessoa da lista.
 
-## Code scaffolding
+## Visualização
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![image](https://github.com/olirrvt/AngularPeopleCrud/assets/100844800/b611ec51-94a8-4948-9b25-7bec399d23ed)
 
-## Build
+## Pré-requisitos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Antes de iniciar, certifique-se de ter os seguintes requisitos:
 
-## Running unit tests
+- Node.js
+- Angular CLI
+- Navegador Web moderno
+- Ter a Api Atos clonada e configurada (com suas informações) na sua máquina
+  (link da api: https://github.com/olirrvt/AtosRestApi)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Instalação
 
-## Running end-to-end tests
+Siga as etapas abaixo para configurar e executar o projeto:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Clone este repositório em sua máquina local:
 
-## Further help
+   ```bash
+   git clone https://github.com/seu-usuario/AngularPeopleCrud.git
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+2. Navegue até o diretório do projeto:
+
+   ```bash
+   cd AngularPeopleCrud
+   ```
+
+3. Instale as dependências do projeto:
+
+   ```bash
+   npm install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   ng serve
+   ```
+
+5. Abra o navegador e acesse `http://localhost:4200` para visualizar o aplicativo.
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você encontrar algum problema ou tiver alguma sugestão, fique à vontade para abrir uma issue ou enviar um pull request.
